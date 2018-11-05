@@ -1,0 +1,35 @@
+{
+  "name": "pkshetlie/google-bundle",
+  "license": "GPL-3.0-or-later",
+  "description": "Easy way use google analytics report api",
+  "keywords": [
+    "google",
+    "analytics",
+    "report",
+    "symfony"
+  ],
+  "homepage": "https://github.com/pkshetlie/pagination-bundle",
+  "require": {
+    "php": "^7.0",
+    "google/apiclient": "^2.2",
+    "symfony/symfony": "3.4.*"
+  },
+  "authors": [
+    {
+      "name": "Pierrick POBELLE",
+      "email": "pierrick.pobelle@gmail.com",
+      "homepage": "http://pierrick.pobelle.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pkshetlie\\Google\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "v1.x-dev"
+    }
+  }
+}

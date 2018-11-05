@@ -1,0 +1,3 @@
+google_analytics_homepage:
+    path:     /
+    defaults: { _controller: GoogleBundle:Default:index }

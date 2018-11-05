@@ -1,0 +1,4 @@
+services:
+    pkshetlie.google.analytics:
+        class: GoogleBundle\Service\Analytics
+        arguments: [~,~]
